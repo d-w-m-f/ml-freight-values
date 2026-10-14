@@ -1,0 +1,39 @@
+# --- Project ---------------------------------------------------------------
+# Private decision log.
+src/manifest.md
+# Poetry lock file. Note: it is already tracked, so Git keeps tracking its
+# changes despite this rule; requirements.txt is generated from it.
+poetry.lock
+
+# --- Python ----------------------------------------------------------------
+__pycache__
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments --------------------------------------------------
+.venv/
+venv/
+
+# --- Tool caches -----------------------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Notebooks: forbidden in this project (see CLAUDE.md) ------------------
+*.ipynb
+
+# --- Editors and operating systems -----------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Local settings, secrets and logs --------------------------------------
+.env
+.claude/settings.local.json
+*.log

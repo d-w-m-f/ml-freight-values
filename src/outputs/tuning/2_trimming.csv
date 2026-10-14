@@ -1,0 +1,5 @@
+model,mape_mean,mape_std,mape_plausible_labels_mean,wape_mean,mae_mean,mape_september,mape_month_6,mape_month_7,mape_month_8,mape_month_9
+regression_trend_held,4.773,0.553,2.616,4.917,118.852,4.836,4.36,5.53,4.37,4.84
+regression_trend_held_no_trimming,5.632,1.463,3.452,5.691,137.38,4.58,4.58,7.68,5.68,4.58
+hybrid_trend_held,4.351,0.567,2.194,4.488,108.378,4.231,3.66,5.03,4.48,4.23
+hybrid_trend_held_no_trimming,4.645,1.05,2.483,4.801,115.896,4.167,3.68,6.11,4.62,4.17

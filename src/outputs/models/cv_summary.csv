@@ -1,0 +1,6 @@
+model,mape_mean,mape_std,wape_mean,wape_std,mae_mean,mae_std,rmse_mean,rmse_std,mape_plausible_labels_mean,mape_plausible_labels_std,mape_september
+baseline,10.307,0.492,9.284,0.773,223.823,13.624,676.264,28.895,8.279,0.533,10.036
+regression,5.286,1.218,5.53,1.437,133.508,34.76,651.894,39.058,3.195,1.306,7.007
+lightgbm,5.416,1.618,5.427,1.054,130.911,24.875,645.389,38.84,3.338,1.524,5.189
+regression_no_trimming,5.041,0.662,5.311,0.907,128.309,22.74,648.982,40.9,2.922,0.763,5.983
+lightgbm_no_trimming,5.401,1.601,5.402,1.016,130.304,23.915,645.267,38.584,3.324,1.503,5.188

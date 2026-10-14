@@ -1,0 +1,238 @@
+{
+  "quality_development_jan_sep": {
+    "rows": 43147,
+    "date_range": [
+      "2025-01-01",
+      "2025-09-30"
+    ],
+    "duplicate_load_ids": 0,
+    "duplicate_rows_excluding_id": 0,
+    "missing_values": {
+      "weight": 268,
+      "market_index": 332
+    },
+    "negative_weight_fixed": 259,
+    "same_pickup_and_delivery": 0,
+    "distance_min": 70.0,
+    "distance_at_70_mile_floor": 37,
+    "distance_over_2x_straight_line": 18,
+    "non_positive_rate": 0,
+    "rate_per_mile_below_1": 289,
+    "rate_per_mile_above_5": 279,
+    "suspect_labels_vs_lane_median": {
+      "below_0.6x": 297,
+      "above_1.8x": 266
+    }
+  },
+  "quality_validation_nov_dec": {
+    "rows": 12000,
+    "date_range": [
+      "2025-11-01",
+      "2025-12-31"
+    ],
+    "duplicate_load_ids": 0,
+    "duplicate_rows_excluding_id": 0,
+    "missing_values": {
+      "weight": 165,
+      "market_index": 249
+    },
+    "negative_weight_fixed": 145,
+    "same_pickup_and_delivery": 0,
+    "distance_min": 70.0,
+    "distance_at_70_mile_floor": 21,
+    "distance_over_2x_straight_line": 16
+  },
+  "exploration": {
+    "rate_per_mile_median_by_equipment": {
+      "Dry Van": 2.044,
+      "Flatbed": 2.219,
+      "Reefer": 2.312
+    },
+    "rate_per_mile_median_by_distance": {
+      "(0, 250]": 2.74,
+      "(250, 500]": 2.422,
+      "(500, 1000]": 2.192,
+      "(1000, 2000]": 2.044,
+      "(2000, 4000]": 1.909
+    },
+    "spearman_with_rate_per_mile": {
+      "distance": -0.733,
+      "weight": 0.195,
+      "market_index": 0.205,
+      "quote_signal": 0.208
+    },
+    "market_index_std_within_day": 0.025,
+    "market_index_std_between_days": 0.168,
+    "spearman_daily_market_index_vs_daily_rate_per_mile": 0.704,
+    "cities_in_development": 64,
+    "lanes_in_development": 4008,
+    "validation_cities_unseen": [
+      "Allentown",
+      "Charlotte",
+      "Chicago",
+      "Jackson",
+      "Knoxville",
+      "Laredo",
+      "Norfolk",
+      "San Diego"
+    ],
+    "validation_rows_with_unseen_city": 0.121
+  },
+  "december_inputs": [
+    {
+      "date": "2025-12-01",
+      "market_index": 0.8335,
+      "quote_signal": 2.0586
+    },
+    {
+      "date": "2025-12-02",
+      "market_index": 0.9147,
+      "quote_signal": 2.0405
+    },
+    {
+      "date": "2025-12-03",
+      "market_index": 0.9944,
+      "quote_signal": 2.0369
+    },
+    {
+      "date": "2025-12-04",
+      "market_index": 1.025,
+      "quote_signal": 2.0667
+    },
+    {
+      "date": "2025-12-05",
+      "market_index": 0.9749,
+      "quote_signal": 2.0675
+    },
+    {
+      "date": "2025-12-06",
+      "market_index": 0.8898,
+      "quote_signal": 2.0441
+    },
+    {
+      "date": "2025-12-07",
+      "market_index": 0.8295,
+      "quote_signal": 2.0398
+    },
+    {
+      "date": "2025-12-08",
+      "market_index": 0.84,
+      "quote_signal": 2.0203
+    },
+    {
+      "date": "2025-12-09",
+      "market_index": 0.916,
+      "quote_signal": 2.0609
+    },
+    {
+      "date": "2025-12-10",
+      "market_index": 1.0006,
+      "quote_signal": 2.052
+    },
+    {
+      "date": "2025-12-11",
+      "market_index": 1.025,
+      "quote_signal": 2.044
+    },
+    {
+      "date": "2025-12-12",
+      "market_index": 0.9816,
+      "quote_signal": 2.0277
+    },
+    {
+      "date": "2025-12-13",
+      "market_index": 0.8983,
+      "quote_signal": 2.054
+    },
+    {
+      "date": "2025-12-14",
+      "market_index": 0.8397,
+      "quote_signal": 2.0634
+    },
+    {
+      "date": "2025-12-15",
+      "market_index": 0.8487,
+      "quote_signal": 2.0704
+    },
+    {
+      "date": "2025-12-16",
+      "market_index": 0.9211,
+      "quote_signal": 2.0866
+    },
+    {
+      "date": "2025-12-17",
+      "market_index": 1.0044,
+      "quote_signal": 2.0264
+    },
+    {
+      "date": "2025-12-18",
+      "market_index": 1.0342,
+      "quote_signal": 2.0301
+    },
+    {
+      "date": "2025-12-19",
+      "market_index": 0.989,
+      "quote_signal": 2.0403
+    },
+    {
+      "date": "2025-12-20",
+      "market_index": 0.9037,
+      "quote_signal": 2.0508
+    },
+    {
+      "date": "2025-12-21",
+      "market_index": 0.8449,
+      "quote_signal": 2.0806
+    },
+    {
+      "date": "2025-12-22",
+      "market_index": 0.86,
+      "quote_signal": 2.0242
+    },
+    {
+      "date": "2025-12-23",
+      "market_index": 0.9299,
+      "quote_signal": 2.0166
+    },
+    {
+      "date": "2025-12-24",
+      "market_index": 1.0155,
+      "quote_signal": 2.0502
+    },
+    {
+      "date": "2025-12-25",
+      "market_index": 1.0455,
+      "quote_signal": 2.0698
+    },
+    {
+      "date": "2025-12-26",
+      "market_index": 0.9973,
+      "quote_signal": 2.0461
+    },
+    {
+      "date": "2025-12-27",
+      "market_index": 0.9142,
+      "quote_signal": 2.0587
+    },
+    {
+      "date": "2025-12-28",
+      "market_index": 0.858,
+      "quote_signal": 2.0338
+    },
+    {
+      "date": "2025-12-29",
+      "market_index": 0.8701,
+      "quote_signal": 2.0429
+    },
+    {
+      "date": "2025-12-30",
+      "market_index": 0.9443,
+      "quote_signal": 2.0579
+    },
+    {
+      "date": "2025-12-31",
+      "market_index": 1.029,
+      "quote_signal": 1.9954
+    }
+  ]
+}

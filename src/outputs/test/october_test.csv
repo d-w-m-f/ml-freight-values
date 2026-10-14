@@ -1,0 +1,5 @@
+model,mape,wape,mae,rmse,mape_plausible_labels,median_predicted_over_actual
+baseline,10.928,9.724,231.333,683.891,8.095,0.993
+regression,6.285,5.81,138.233,657.798,3.413,0.968
+lightgbm,5.61,5.247,124.832,653.943,2.714,0.979
+final_hybrid,4.539,4.036,96.027,645.858,1.564,0.992

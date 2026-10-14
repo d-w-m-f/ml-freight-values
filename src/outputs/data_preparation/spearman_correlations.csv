@@ -1,0 +1,6 @@
+,rate_per_mile,distance,weight,market_index,quote_signal
+rate_per_mile,1.0,-0.733,0.195,0.205,0.208
+distance,-0.733,1.0,0.006,-0.004,-0.147
+weight,0.195,0.006,1.0,0.003,0.032
+market_index,0.205,-0.004,0.003,1.0,-0.088
+quote_signal,0.208,-0.147,0.032,-0.088,1.0
