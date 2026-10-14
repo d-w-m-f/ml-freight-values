@@ -1,0 +1,18 @@
+[project]
+name = "ml-freight-project"
+version = "0.1.0"
+description = "Evaluation of Freight Rate Values"
+authors = [
+    {name = "d-w-m-f",email = "derick.william.moraes@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib (>=3.11.2,<4.0.0)",
+    "pandas (>=3.0.6,<4.0.0)",
+    "numpy (>=2.5.4,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
